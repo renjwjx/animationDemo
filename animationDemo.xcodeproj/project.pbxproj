@@ -13,6 +13,7 @@
 		EEDDDC1223EC0AF300CCD7BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDDDC1123EC0AF300CCD7BE /* Assets.xcassets */; };
 		EEDDDC1523EC0AF300CCD7BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDDDC1323EC0AF300CCD7BE /* LaunchScreen.storyboard */; };
 		EEDDDC1823EC0AF300CCD7BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDDC1723EC0AF300CCD7BE /* main.m */; };
+		EEDDDC2023ED04AB00CCD7BE /* MyDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDDDC1F23ED04AB00CCD7BE /* MyDragView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EEDDDC1423EC0AF300CCD7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEDDDC1623EC0AF300CCD7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEDDDC1723EC0AF300CCD7BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEDDDC1E23ED04AB00CCD7BE /* MyDragView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDragView.h; sourceTree = "<group>"; };
+		EEDDDC1F23ED04AB00CCD7BE /* MyDragView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDragView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 				EEDDDC0823EC0AF100CCD7BE /* AppDelegate.h */,
 				EEDDDC0923EC0AF100CCD7BE /* AppDelegate.m */,
 				EEDDDC0B23EC0AF100CCD7BE /* ViewController.h */,
+				EEDDDC1E23ED04AB00CCD7BE /* MyDragView.h */,
+				EEDDDC1F23ED04AB00CCD7BE /* MyDragView.m */,
 				EEDDDC0C23EC0AF100CCD7BE /* ViewController.m */,
 				EEDDDC0E23EC0AF100CCD7BE /* Main.storyboard */,
 				EEDDDC1123EC0AF300CCD7BE /* Assets.xcassets */,
@@ -143,6 +148,7 @@
 			files = (
 				EEDDDC0D23EC0AF100CCD7BE /* ViewController.m in Sources */,
 				EEDDDC1823EC0AF300CCD7BE /* main.m in Sources */,
+				EEDDDC2023ED04AB00CCD7BE /* MyDragView.m in Sources */,
 				EEDDDC0A23EC0AF100CCD7BE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
